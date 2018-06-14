@@ -40,7 +40,6 @@ public class One
 
     public String foo()
     {
-        threadCount = 5;
         cdl = new CountDownLatch(threadCount);
         readFile();
         subList();
